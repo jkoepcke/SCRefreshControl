@@ -366,13 +366,13 @@
     
     self.statusLabel = [[UILabel alloc] init];
     self.statusLabel.backgroundColor = [UIColor clearColor];
-    self.statusLabel.textAlignment = UITextAlignmentCenter;
+    self.statusLabel.textAlignment = NSTextAlignmentCenter;
     self.statusLabel.font = [UIFont boldSystemFontOfSize:[UIFont systemFontSize]];
     [self addSubview:self.statusLabel];
     
     self.lastUpdateLabel = [[UILabel alloc] init];
     self.lastUpdateLabel.backgroundColor = [UIColor clearColor];
-    self.lastUpdateLabel.textAlignment = UITextAlignmentCenter;
+    self.lastUpdateLabel.textAlignment = NSTextAlignmentCenter;
     self.lastUpdateLabel.font = [UIFont boldSystemFontOfSize:[UIFont smallSystemFontSize]];
     
     [self addSubview:self.lastUpdateLabel];
